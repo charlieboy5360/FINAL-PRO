@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap E-commerce</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins:wght@300;400&display=swap');
+
+        body {
+            background-color: #333;
+            color: #fff;
+            padding-top: 56px;
+            font-family: 'DM Sans', sans-serif;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .navbar {
+            background-color: #212529;
+        }
+
+        .card {
+            background-color: #555;
+            color: #fff;
+        }
+
+        .card-footer {
+            background-color: #444;
+            border-top: 1px solid #333;
+        }
+
+        .footer {
+            background-color: #212529;
+            color: #fff;
+            padding: 20px 0;
+
+            bottom: 0;
+            width: 100%;
+        }
+
+        .jumbotron {
+            background-color: #212529;
+            color: #f8f9fa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="#" style="color: #f8f9fa; font-size:30px; font-family: 'DM Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;">Charlie's Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" style="color: #f8f9fa;">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: #f8f9fa;">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: #f8f9fa;">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-outline-light">Log In</button>
+
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-dark">Sign up</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Jumbotron Header -->
+    <header class="jumbotron my-4">
+        <h1 class="display-3">Welcome to our Charlie's Store!</h1>
+        <p class="lead">Buy all your favorite products here.</p>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Product Cards -->
+        <div class="row">
+            <!-- Smartphone Cards -->
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="galaxy.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Samsung Galaxy S23 (Mint,8GB,128GB Storage,Amoled Display)</h4>
+                        <p class="card-text" style="font-weight: 600; font-size: 37px;">Rs-60,000</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-light">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add 3 more Smartphone cards -->
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="one.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">OnePlus 11R 5G(Sonic Black,8GB RAM,128GB Storage)</h4>
+                        <p class="card-text" style="font-weight: 600; font-size: 37px;">Rs-20,000</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-light">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="r2.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Redmi Note 13 5G(Artic White,8GB RAM,128GB Storage)</h4>
+                        <p class="card-text" style="font-weight: 600; font-size: 37px;">Rs-17,999</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-light">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Laptop Cards -->
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="l6.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Lenovo Ideapad Gaming 3(AMD Ryzen 5 5600H)</h4>
+                        <p class="card-text" style="font-weight: 600; font-size: 37px;">Rs-50,000</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-light">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add 3 more Laptop cards -->
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="l3.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">ASUS TUF Gaming F-15(Intel Core i5-11400H 11th Gen)</h4>
+                        <p class="card-text" style="font-weight: 600; font-size: 37px;">Rs-60,000</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-light">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="l5.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Lenovo Legion 5 Pro(AMD Ryzen 7 5800H,16 Inch)</h4>
+                        <p class="card-text" style="font-weight: 600; font-size: 37px;">Rs-1,04,990</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-light">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Smart TV Cards -->
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="t1.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Samsung 108cm (43 inches)Crystal Vision 4k Ultra HD Smart Android LED TV
+                        </h4>
+                        <p class="card-text" style="font-weight: 600; font-size: 37px;">Rs-29,990</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-light">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add 3 more Smart TV cards -->
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="t2.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">OnePlus 108cm(43 inches)4k Ultra HD Smart Android LED TV 431YSPro (Black)
+                        </h4>
+                        <p class="card-text" style="font-weight: 600; font-size: 37px;">Rs-23,999</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-light">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="t4.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Sony Bravia 139cm (55 inches)4K Ultra HD Smart LED Google Tv
+                            KD-55X74K(Black)</h4>
+                        <p class="card-text" style="font-weight: 600; font-size: 37px;">Rs-50,999</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-light">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer text-center">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Contact Us</h4>
+                <p>Email: charlie@gmail.com</p>
+                <p>Phone: +1 (123) 456-7890</p>
+            </div>
+            <div class="col-md-4">
+                <h4>About Us</h4>
+                <p>Charlie's Store is guided by four principles: customer obsession rather than competitor focus,
+                    passion for invention, commitment to operational excellence, and long-term thinking.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Quick Links</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2024 Charlie's Website</p>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
